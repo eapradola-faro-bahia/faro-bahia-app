@@ -1,0 +1,25 @@
+{
+  "rutinas": [
+    {
+      "id": "VEL-CORT-10X200",
+      "categoria": "Velocidad",
+      "nombre": "10 x 200m",
+      "detalles": "🔥 10 min calentamiento\n⚡ 10 x 200m (desc 45\")\n🌊 10 min afloje",
+      "km": 5
+    },
+    {
+      "id": "VEL-MED-15X600",
+      "categoria": "Velocidad",
+      "nombre": "15 x 600m",
+      "detalles": "🔥 10 min calentamiento\n⚡ 15 x 600m (desc 1:30)\n🌊 10 min afloje",
+      "km": 11
+    },
+    {
+      "id": "ESCALERA-TIEMPO",
+      "categoria": "Pirámide",
+      "nombre": "Escalera de Tiempo",
+      "detalles": "🔥 10 min calentamiento\n⚡ 1x8', 1x6', 1x4', 1x2' (desc 1:00)\n🌊 5 min afloje",
+      "km": 6
+    }
+  ]
+}
