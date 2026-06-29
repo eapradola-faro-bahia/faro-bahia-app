@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faro Bahía | Master Panel</title>
+    <!-- Conexión al archivo de diseño -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>🦅 Faro Bahía APP-WEB</h1>
+        <p>Centro de Mando Táctico - Dashboard del Coach</p>
+    </div>
+
+    <!-- Panel de Controles -->
+    <div class="control-panel">
+        <div class="input-group">
+            <label for="diaSelect">Día de la semana</label>
+            <select id="diaSelect">
+                <option value="Lunes">Lunes</option>
+                <option value="Martes">Martes</option>
+                <option value="Miércoles">Miércoles</option>
+                <option value="Jueves">Jueves</option>
+                <option value="Viernes">Viernes</option>
+                <option value="Sábado">Sábado</option>
+                <option value="Domingo">Domingo</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="rutinaSelect">Seleccionar Rutina Maestra</label>
+            <select id="rutinaSelect">
+                <option value="">Cargando bóveda...</option>
+            </select>
+        </div>
+        <button onclick="asignarRutina()">➕ Asignar al Día</button>
+    </div>
+
+    <!-- Tarjetas de la Semana -->
+    <div class="week-grid">
+        <div class="day-card" id="card-Lunes">
+            <h3 class="day-title">Lunes <span class="km-badge" id="km-Lunes">0 KM</span></h3>
+            <div class="routine-content" id="content-Lunes">Descanso o sin asignar</div>
+        </div>
+        <div class="day-card" id="card-Martes">
+            <h3 class="day-title">Martes <span class="km-badge" id="km-Martes">0 KM</span></h3>
+            <div class="routine-content" id="content-Martes">Descanso o sin asignar</div>
+        </div>
+        <div class="day-card" id="card-Miércoles">
+            <h3 class="day-title">Miércoles <span class="km-badge" id="km-Miércoles">0 KM</span></h3>
+            <div class="routine-content" id="content-Miércoles">Descanso o sin asignar</div>
+        </div>
+        <div class="day-card" id="card-Jueves">
+            <h3 class="day-title">Jueves <span class="km-badge" id="km-Jueves">0 KM</span></h3>
+            <div class="routine-content" id="content-Jueves">Descanso o sin asignar</div>
+        </div>
+        <div class="day-card" id="card-Viernes">
+            <h3 class="day-title">Viernes <span class="km-badge" id="km-Viernes">0 KM</span></h3>
+            <div class="routine-content" id="content-Viernes">Descanso o sin asignar</div>
+        </div>
+        <div class="day-card" id="card-Sábado">
+            <h3 class="day-title">Sábado <span class="km-badge" id="km-Sábado">0 KM</span></h3>
+            <div class="routine-content" id="content-Sábado">Descanso o sin asignar</div>
+        </div>
+        <div class="day-card" id="card-Domingo">
+            <h3 class="day-title">Domingo <span class="km-badge" id="km-Domingo">0 KM</span></h3>
+            <div class="routine-content" id="content-Domingo">Descanso o sin asignar</div>
+        </div>
+    </div>
+
+    <div class="footer-quote">
+        "ALL IN YOUR MIND. Todo está en tu mente y en la actitud. Avanzando firmes como la corriente de la Bahía."
+    </div>
+
+    <!-- Conexión al motor lógico -->
+    <script src="app.js"></script>
+</body>
+</html>

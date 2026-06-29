@@ -1,0 +1,25 @@
+{
+  "rutinas": [
+    {
+      "id": "VEL-CORT-10X200",
+      "categoria": "Velocidad Corta",
+      "nombre": "Series 10x200m",
+      "detalles": "🔥 Calentamiento: 10 min\n⚡ Principal: 10 x 200 mts (desc 45\")\n🌊 Afloje: 10 min",
+      "kilometraje_base": 5.0
+    },
+    {
+      "id": "FONDO-16K",
+      "categoria": "Distancia Larga",
+      "nombre": "Fondo 16K Libre",
+      "detalles": "🏃‍♀️ Principal: 16 KM continuos a ritmo libre.\nFondo clave de asimilación.",
+      "kilometraje_base": 16.0
+    },
+    {
+      "id": "REHAB-ACTIVA-01",
+      "categoria": "Recuperación",
+      "nombre": "Rodaje Suave 30 min",
+      "detalles": "🏃‍♀️ Principal: 30 minutos a ritmo libre aeróbico.\nPara soltar las piernas y sanar.",
+      "kilometraje_base": 4.0
+    }
+  ]
+}
